@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/scorebackground">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/no_of_questions_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question Count"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:fontFamily="@font/andika"/>
+
+    <TextView
+        android:id="@+id/question_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:gravity="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="32sp"
+        android:fontFamily="@font/andika"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp">
+
+       <Button
+           android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choice_1_btn_id"
+            android:text="choice 1"
+           android:fontFamily="@font/andika"
+           android:textAllCaps="false"
+           android:layout_gravity="center_horizontal"
+           android:background="@drawable/buttonbackground"/>
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choice_2_btn_id"
+            android:text="choice 2"
+            android:fontFamily="@font/andika"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbackground"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/choice_3_btn_id"
+            android:text="choice 3"
+            android:fontFamily="@font/andika"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbackground"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/choice_4_btn_id"
+            android:text="choice 4"
+            android:fontFamily="@font/andika"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbackground"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
